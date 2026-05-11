@@ -1,0 +1,9 @@
+#:schema https://mise.jdx.dev/schema/mise.json
+[tools]
+"aqua:nextest-rs/nextest/cargo-nextest" = "latest"
+"aqua:mitsuhiko/insta" = "latest"
+"aqua:taiki-e/cargo-llvm-cov" = "latest"
+"cargo:cargo-expand" = "latest"
+"cargo:flamegraph" = "latest"
+just = "latest"
+prek = "latest"

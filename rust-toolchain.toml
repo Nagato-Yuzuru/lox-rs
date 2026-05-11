@@ -1,0 +1,11 @@
+#:schema https://www.schemastore.org/rust-toolchain.json
+[toolchain]
+channel = "stable"
+components = [
+  "rustfmt",
+  "clippy",
+  "rust-src",
+  "rust-analyzer",
+  "miri",
+  "llvm-tools-preview",
+]
