@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Crafting Interpreters book
+    url: https://craftinginterpreters.com/
+    about: Questions about Lox the language belong with the book, not here.
