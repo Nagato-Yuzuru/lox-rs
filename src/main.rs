@@ -14,10 +14,7 @@ struct Cli {
 
 fn main() -> Result<()> {
     let cli = Cli::parse();
-    match cli.script {
-        Some(path) => run_file(&path),
-        None => run_repl(),
-    }
+    cli.script.map_or_else(run_repl, |path| run_file(&path))
 }
 
 fn run_file(path: &Path) -> Result<()> {
